@@ -37,11 +37,9 @@ public class ArrayExamples {
         removedLowest = true;
         continue;
       }
-      sum += num;
+      sum += num; 
     }
     return sum / (arr.length - 1);
   }
-
-
 }
 
